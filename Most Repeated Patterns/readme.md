@@ -1,6 +1,7 @@
 > MOST REPEATED PATTERNS : -
 
-'''pattern 1 : -  Sliding window technique			
+'''
+pattern 1 : -  Sliding window technique			
 pattern 2 : -  Two pointer approach
 pattern 3 : -  Fast and Slow pointer
 pattern 4 : -  Merge interval 
