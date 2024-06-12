@@ -19,3 +19,5 @@
 > pattern 16 : - Topological sort
 
 ```
+
+> These are the MOST REPEATED PATTERNS in CP
