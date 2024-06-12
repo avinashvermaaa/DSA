@@ -1,4 +1,4 @@
-MOST REPEATED PATTERNS : -
+> MOST REPEATED PATTERNS : -
 
 pattern 1 : -  Sliding window technique			
 pattern 2 : -  Two pointer approach
