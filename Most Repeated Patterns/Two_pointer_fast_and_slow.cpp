@@ -67,6 +67,6 @@ int main()
   output :- 4
 
   10
-  1 2 3 4 56 7 8 9 56
-  output :- 56
+  1 2 3 4 7 7 8 9 5 6
+  output :- 7
 */
