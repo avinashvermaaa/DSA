@@ -7,4 +7,8 @@
 # cout<<sizeof(var_name);    
  ```         
            // integer -> 4  char -> 1 double -> 8  float -> 4  boolean -> 1 
-  ```
+ ```
+# Fermet Theorem :-  
+ ```         
+           // a^(b-1) % b = 1 {a & b must be co-prime} 
+ ```
