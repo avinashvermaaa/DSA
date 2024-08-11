@@ -29,6 +29,8 @@ using namespace std;
 
 int main()
 {
+   // nums[i] < nums.length()
+   
    int n;
    cin>>n;
    
