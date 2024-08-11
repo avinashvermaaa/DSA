@@ -11,4 +11,4 @@ sort(nums.begin(),nums.end());               // [3, 2, 1] --> [1, 2, 3]
 int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum 
 
 // Reverse vector
-  reverse(nums.begin(),nums.end());
+  reverse(nums.begin(),nums.end());                  // 12345  --> 54321
