@@ -9,3 +9,6 @@ sort(nums.begin(),nums.end());               // [3, 2, 1] --> [1, 2, 3]
 
 // Array sum
 int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum 
+
+// Reverse vector
+  reverse(v.begin(),v.end());
