@@ -25,7 +25,7 @@ vec.insert(vec.begin(), 1);                           // Inserts 1 at the start
           OR  
   nums.erase(remove(begin(nums),end(nums),0), end(nums));         // (erase / remove) all occurenece of 0.
 ```
-# Find Permututaion
+# Next Permututaion
 ```
 next_permututaion(arr[0],arr[n-1]);                  // [1, 2, 3] --> [1, 3, 2]
 next_permututaion(nums.begin(),nums.end());          // [1, 2, 3] --> [1, 3, 2]
