@@ -1,17 +1,3 @@
-# Sort a vector
-```
-sort(nums.begin(),nums.end());                        // [3, 2, 1] --> [1, 2, 3]
-sort(begin(nums),end(nums));                        // [3, 2, 1] --> [1, 2, 3]
-
-```
-# Reverse vector
-```
-  reverse(nums.begin(),nums.end());                   // 12345  --> 54321
-```
-# Array sum
-```
-int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum 
-```
 # Insert Elements at any index
 ```
 vec.insert(vec.begin(), 1);                           // Inserts 1 at the start
@@ -21,6 +7,19 @@ vec.insert(vec.begin(), 1);                           // Inserts 1 at the start
 auto it = find(nums.begin(), nums.end(), value_to_find);
 if(it != nums.end()) cout<<"present";
 else cout<<"not present";
+```
+# Reverse vector
+```
+  reverse(nums.begin(),nums.end());                   // 12345  --> 54321
+```
+# Sort a vector
+```
+sort(nums.begin(),nums.end());                        // [3, 2, 1] --> [1, 2, 3]
+sort(begin(nums),end(nums));                        // [3, 2, 1] --> [1, 2, 3]
+```
+# Array sum
+```
+int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum 
 ```
 # Erase an [Element] or a [Specific Range of Elemnt]
 ``` 
