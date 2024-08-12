@@ -1,4 +1,4 @@
-# Insert Elements at any index    
+# Insert new Elements at any index    
 ```
 T.C. = O(1)--> end   and O(N) rest case
 
@@ -35,6 +35,11 @@ Erase all occurenece of a specific element :-
   nums.erase(remove(nums.begin(),nums.end(),0),nums.end());       // (erase / remove) all occurenece of 0.
           OR  
   nums.erase(remove(begin(nums),end(nums),0), end(nums));         // (erase / remove) all occurenece of 0.
+```
+# Replace elements at any index :-
+```
+ nums1.at(1) = 5;      // element at 1st index is changed to 5.
+ nums1.at(n2) = nums2.at(j);
 ```
 # Reverse vector  
 ```
