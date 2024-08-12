@@ -16,6 +16,12 @@ int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of s
 ```
 vec.insert(vec.begin(), 1);                           // Inserts 1 at the start
 ```
+# Finding an element
+```
+auto it = find(nums.begin(), nums.end(), value_to_find);
+if(it != nums.end()) cout<<"present";
+else cout<<"not present";
+```
 # Erase an [Element] or a [Specific Range of Elemnt]
 ``` 
   nums.erase(nums.begin() + 2);      nums.erase(nums.begin());    // erase the element at index 2 {0,1, [2] }   and erase the element at index 0.
