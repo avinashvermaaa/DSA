@@ -46,6 +46,7 @@ Erase all occurenece of a specific element :-
 T.C. = O(N)
 
   reverse(nums.begin(),nums.end());                   // 12345  --> 54321
+  reverse(all(nums));
 ```
 # Sort a vector  
 ```
@@ -58,7 +59,8 @@ T.C. = O(N(Log(N))
 ```
 T.C. =  O(N)
 
-  int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum 
+  int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum
+  int sum = accumulate(all(nums),0);
 ```
 # Next Permututaion
 ```
