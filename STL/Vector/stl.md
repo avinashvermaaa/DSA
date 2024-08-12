@@ -1,10 +1,12 @@
 # Insert Elements at any index    
 ```
 T.C. = O(1)--> end   and O(N) rest case
+
 insert is less efficient as it makes a copy of elements to be inserted
 whereas emplace dosen't makes any copy.
-  nums.insert(nums.begin(), 1);                           // Inserts 1 at the start
+
   nums.emplace(nums.begin(),1);                           // Inserts 1 at the start
+  nums.insert(nums.begin(), 1);                           // Inserts 1 at the start
 ```
 # Finding an element 
 ```
