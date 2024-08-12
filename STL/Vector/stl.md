@@ -2,16 +2,16 @@
 ```
 T.C. = O(1)--> end   and O(N) rest case
 
-vec.insert(vec.begin(), 1);                           // Inserts 1 at the start
+  vec.insert(vec.begin(), 1);                           // Inserts 1 at the start
 ```
 # Finding an element 
 ```
 T.C. =  O(N)
 
-auto it = find(nums.begin(), nums.end(), value_to_find);      
+  auto it = find(nums.begin(), nums.end(), value_to_find);      
 
-if(it != nums.end()) cout<<"present";
-else cout<<"not present";
+  if(it != nums.end()) cout<<"present";
+  else cout<<"not present";
 ```
 # Reverse vector  
 ```
@@ -23,14 +23,14 @@ T.C. = O(N)
 ```
 T.C. = O(N(Log(N))
 
-sort(nums.begin(),nums.end());                        // [3, 2, 1] --> [1, 2, 3]
-sort(begin(nums),end(nums));                        // [3, 2, 1] --> [1, 2, 3]
+  sort(nums.begin(),nums.end());                        // [3, 2, 1] --> [1, 2, 3]
+  sort(begin(nums),end(nums));                        // [3, 2, 1] --> [1, 2, 3]
 ```
 # Array sum  
 ```
 T.C. =  O(N)
 
-int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum 
+  int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum 
 ```
 # Erase an [Element] or a [Specific Range of Elemnt]    
 ``` 
@@ -47,7 +47,7 @@ T.C. =  O(N)
 ```
 T.C. = O(N)
 
-next_permututaion(arr[0],arr[n-1]);                  // [1, 2, 3] --> [1, 3, 2]
-next_permututaion(nums.begin(),nums.end());          // [1, 2, 3] --> [1, 3, 2]
-next_permututaion(begin(nums),end(nums));            // [1, 2, 3] --> [1, 3, 2]
+  next_permututaion(arr[0],arr[n-1]);                  // [1, 2, 3] --> [1, 3, 2]
+  next_permututaion(nums.begin(),nums.end());          // [1, 2, 3] --> [1, 3, 2]
+  next_permututaion(begin(nums),end(nums));            // [1, 2, 3] --> [1, 3, 2]
 ```
