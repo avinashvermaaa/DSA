@@ -1,4 +1,4 @@
-# Insert Elements at any index    O(1)
+# Insert Elements at any index    O(1)--> end   and O(N) rest case
 ```
 vec.insert(vec.begin(), 1);                           // Inserts 1 at the start
 ```
@@ -13,7 +13,7 @@ else cout<<"not present";
 ```
   reverse(nums.begin(),nums.end());                   // 12345  --> 54321
 ```
-# Sort a vector  O(N)
+# Sort a vector  O(N(Log(N))
 ```
 sort(nums.begin(),nums.end());                        // [3, 2, 1] --> [1, 2, 3]
 sort(begin(nums),end(nums));                        // [3, 2, 1] --> [1, 2, 3]
@@ -22,7 +22,7 @@ sort(begin(nums),end(nums));                        // [3, 2, 1] --> [1, 2, 3]
 ```
 int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum 
 ```
-# Erase an [Element] or a [Specific Range of Elemnt]
+# Erase an [Element] or a [Specific Range of Elemnt]     O(N)
 ``` 
   nums.erase(nums.begin() + 2);      nums.erase(nums.begin());    // erase the element at index 2 {0,1, [2] }   and erase the element at index 0.
   nums.erase(nums.begin()+1, nums.begin()+4 )                     // erase [{4-1} = 3] elements starting from 1st index.
