@@ -1,6 +1,8 @@
-# Sort an array
+# Sort a vector
 ```
 sort(nums.begin(),nums.end());                        // [3, 2, 1] --> [1, 2, 3]
+sort(begin(nums),end(nums));                        // [3, 2, 1] --> [1, 2, 3]
+
 ```
 # Reverse vector
 ```
@@ -9,6 +11,10 @@ sort(nums.begin(),nums.end());                        // [3, 2, 1] --> [1, 2, 3]
 # Array sum
 ```
 int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum 
+```
+# Insert Elements at any index
+```
+vec.insert(vec.begin(), 1);                           // Inserts 1 at the start
 ```
 # Erase an [Element] or a [Specific Range of Elemnt]
 ``` 
