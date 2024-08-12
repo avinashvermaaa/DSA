@@ -17,6 +17,17 @@ T.C. =  O(N)
   if(it != nums.end()) cout<<"present";
   else cout<<"not present";
 ```
+# Erase an [Element] or a [Specific Range of Elemnt]    
+``` 
+T.C. =  O(N)
+
+  nums.erase(nums.begin() + 2);      nums.erase(nums.begin());    // erase the element at index 2 {0,1, [2] }   and erase the element at index 0.
+  nums.erase(nums.begin()+1, nums.begin()+4 )                     // erase [{4-1} = 3] elements starting from 1st index.
+
+  nums.erase(remove(nums.begin(),nums.end(),0),nums.end());       // (erase / remove) all occurenece of 0.
+          OR  
+  nums.erase(remove(begin(nums),end(nums),0), end(nums));         // (erase / remove) all occurenece of 0.
+```
 # Reverse vector  
 ```
 T.C. = O(N)
@@ -35,17 +46,6 @@ T.C. = O(N(Log(N))
 T.C. =  O(N)
 
   int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum 
-```
-# Erase an [Element] or a [Specific Range of Elemnt]    
-``` 
-T.C. =  O(N)
-
-  nums.erase(nums.begin() + 2);      nums.erase(nums.begin());    // erase the element at index 2 {0,1, [2] }   and erase the element at index 0.
-  nums.erase(nums.begin()+1, nums.begin()+4 )                     // erase [{4-1} = 3] elements starting from 1st index.
-
-  nums.erase(remove(nums.begin(),nums.end(),0),nums.end());       // (erase / remove) all occurenece of 0.
-          OR  
-  nums.erase(remove(begin(nums),end(nums),0), end(nums));         // (erase / remove) all occurenece of 0.
 ```
 # Next Permututaion
 ```
