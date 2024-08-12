@@ -10,7 +10,7 @@ sort(nums.begin(),nums.end());                        // [3, 2, 1] --> [1, 2, 3]
 ```
 int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum 
 ```
-# Erase a number or a specific range of number
+# Erase an [Element] or a [Specific Range of Elemnt]
 ``` 
   nums.erase(nums.begin() + 2);      nums.erase(nums.begin());    // erase the element at index 2 {0,1, [2] }   and erase the element at index 0.
   nums.erase(nums.begin()+1, nums.begin()+4 )                     // erase [{4-1} = 3] elements starting from 1st index.
