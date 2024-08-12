@@ -20,9 +20,14 @@ T.C. =  O(N)
 # Erase an [Element] or a [Specific Range of Elemnt]    
 ``` 
 T.C. =  O(N)
+Erase a specific element :-
 
   nums.erase(nums.begin() + 2);      nums.erase(nums.begin());    // erase the element at index 2 {0,1, [2] }   and erase the element at index 0.
+
+Erase a range of elements :-
   nums.erase(nums.begin()+1, nums.begin()+4 )                     // erase [{4-1} = 3] elements starting from 1st index.
+
+Erase all occurenece of a specific element :-
 
   nums.erase(remove(nums.begin(),nums.end(),0),nums.end());       // (erase / remove) all occurenece of 0.
           OR  
