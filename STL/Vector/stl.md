@@ -4,7 +4,8 @@ vec.insert(vec.begin(), 1);                           // Inserts 1 at the start
 ```
 # Finding an element
 ```
-auto it = find(nums.begin(), nums.end(), value_to_find);
+auto it = find(nums.begin(), nums.end(), value_to_find);      
+
 if(it != nums.end()) cout<<"present";
 else cout<<"not present";
 ```
