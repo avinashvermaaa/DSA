@@ -1,24 +1,24 @@
-# Insert Elements at any index
+# Insert Elements at any index    O(1)
 ```
 vec.insert(vec.begin(), 1);                           // Inserts 1 at the start
 ```
-# Finding an element
+# Finding an element  O(N)
 ```
 auto it = find(nums.begin(), nums.end(), value_to_find);      
 
 if(it != nums.end()) cout<<"present";
 else cout<<"not present";
 ```
-# Reverse vector
+# Reverse vector  O(N)
 ```
   reverse(nums.begin(),nums.end());                   // 12345  --> 54321
 ```
-# Sort a vector
+# Sort a vector  O(N)
 ```
 sort(nums.begin(),nums.end());                        // [3, 2, 1] --> [1, 2, 3]
 sort(begin(nums),end(nums));                        // [3, 2, 1] --> [1, 2, 3]
 ```
-# Array sum
+# Array sum   O(N)
 ```
 int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum 
 ```
