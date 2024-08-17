@@ -71,7 +71,8 @@ T.C. = O(N)
   next_permututaion(begin(nums),end(nums));            // [1, 2, 3] --> [1, 3, 2]
 ```
 ```
-nums = [1,2,3,4,5];
-int last = nums.back();       // last = 5;
+.back()
+  nums = [1,2,3,4,5];
+  int last = nums.back();       // last = 5;
 
 ```
