@@ -80,4 +80,7 @@ T.C. = O(N)
 # nth_element
 ```
 nth_element(nums.begin(),nums.begin()+k-1,nums.end());         // kth smallest element at (k-1)th index
+nums = {5,4,3,2,1};
+nth_element(nums.begin(),nums.begin()+4-1,nums.end());
+cout<<nums[4-1];        // 4
 ```
