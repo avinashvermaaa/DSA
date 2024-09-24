@@ -10,7 +10,9 @@ static_cast<target_datatype>(target_variable);
 INT_MAX -> int max
 INT_MIN -> int min
 ULLONG_MAX -> unsigned long long max
-ULLONG_MIN -> unsigned long long min
+LLONG_MIN ->  long long min
+LLONG_MAX ->  long long max
+ cout<<max<<endl<<min<<endl<<minn<<endl<<maxx<<endl;    -> one line output 
 ```
 # cout<<typeid(var_name).name();    
  ```         
