@@ -4,6 +4,8 @@ to_string(variable);         -> any datatype to string
 stoi(variable);             -> string to int
 atoi(variable);             -> argument to int
 static_cast<target_datatype>(target_variable);
+
+str.substr(position,length);    -> substring of length 
 ```
 # INT_MAX INT_MIN ULLONG_MAX ULLONG_MIN
 ```
