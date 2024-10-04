@@ -13,42 +13,30 @@ const int N = 1e5 +10;
 vector<int> g[N];
 bool vis[N];
 
-void dfs(int vertex) 		// O(V + E)
+int level[N];
+
+void dfs(int vertex)
 {
-	/*
-		take action on vertex after entering the vertex
-	*/
-	
-	cout<<vertex<<endl;
-	
 	vis[vertex] = true;
+	cout<<vertex<<endl;	
 	for(auto child : g[vertex])
 	{
-		cout<<"par "<<vertex<<" , child "<<child<<endl;
-		
+		cout<<"par : "<<vertex<<" , child : "<<child<<endl;
 		if(vis[child]) continue;
-		/*
-			take action on child before entering the child node
-		*/		
 		dfs(child);
-		/*
-			take action on child after exiting the child node
-		*/
 	}
-	/*
-		take action on vertex before exiting the vertex
-	*/
 }
+
 
 
 int main()
 {
 	// DFS
 	
-	int n,m;
-	cin>>n>>m;
+	int vertex,edge;
+	cin>>vertex>>edge;
 	
-	for(int i =0; i<m; i++)
+	for(int i =0; i<edge; i++)
 	{
 		int v1,v2;
 		cin>>v1>>v2;
@@ -57,13 +45,8 @@ int main()
 		g[v2].pb(v1);
 	}
 		
-		
-		int k;
-		cin>>k;
-		
-	// dfs(1);	
-	cout<<endl<<endl<<"dfs of "<<k<<" ;"<<endl;
-	dfs(k);
+	dfs(1);	
+	
 	
 	/*
 		
@@ -77,7 +60,6 @@ int main()
 		2 6
 		4 6
 		5 6
-	1 // dfs of 1
 		
 	*/
 		/*	
