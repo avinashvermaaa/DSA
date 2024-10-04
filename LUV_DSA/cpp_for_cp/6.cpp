@@ -16,7 +16,7 @@ void increment(int &a, int b) // pass by reference
 
 void finc(string &str)
 {
-	str ="";
+	str ="avi";
 }
 
 int main()
@@ -34,7 +34,7 @@ int main()
 	
 	string str = "avinash";		
 	cout<<str<<endl;
-	finc(str);			// passed by value
+	finc(str);			// passed by ref
 	cout<<str<<endl;
 } 
 
