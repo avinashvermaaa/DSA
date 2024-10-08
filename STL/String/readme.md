@@ -1,3 +1,13 @@
+# str
+```
+str.size()				// gives size
+str.substr(start_index,length)		// substr
+str1 + str2				// string concatenate
+str1.compare(str2)			// string compare
+reverse(str.begin(), str.end() )	// string reverse
+sort(str.begin(), str.end() )		// string sort
+
+```
 # str1.compare(str2)
 ```
 string str1,str2;
