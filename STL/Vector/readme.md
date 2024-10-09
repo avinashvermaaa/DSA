@@ -91,6 +91,6 @@ T.C. = O(N)
 ```
 # is_sorted
 ```
-   bool sorted = is_sorted(nums.begin(),end(nums));   // returns true or false depending on if sorted or not.     if arr is sorted in ascending order the 1 otherwise 0.
+   bool sorted = is_sorted(nums.begin(),end(nums));   // returns "true" if arr is sorted in ascending order otherwise "false".
 
 ```
