@@ -85,3 +85,8 @@ T.C. = O(N)
   nth_element(nums.begin(),nums.begin()+4-1,nums.end());
   cout<<nums[4-1];                          // 4
 ```
+# is_sorted
+```
+   bool sorted = is_sorted(nums.begin(),end(nums));            // returns true or false depending on if sorted or not.
+
+```
