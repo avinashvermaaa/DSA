@@ -55,12 +55,16 @@ T.C. = O(N(Log(N))
   sort(nums.begin(),nums.end());                        // [3, 2, 1] --> [1, 2, 3]
   sort(begin(nums),end(nums));                        // [3, 2, 1] --> [1, 2, 3]
 ```
-# Array sum  
+# Array sum  and min. max. value
 ```
 T.C. =  O(N)
 
   int sum = accumulate(nums.begin(),nums.end(),0);      // 0 as initial value of sum
   int sum = accumulate(all(nums),0);
+
+  int min = *min_element(nums.begin(),end(nums));       //min. value
+  int max = *max_element(nums.begin(),end(nums));       // max. value
+      
 ```
 # Next Permututaion
 ```
