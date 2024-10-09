@@ -7,8 +7,9 @@ static_cast<target_datatype>(target_variable);
 
 str.substr(position,length);    -> substring of length 
 ```
-# INT_MAX INT_MIN ULLONG_MAX ULLONG_MIN
+# ( possible min. max. value)
 ```
+unsigned long long int                        // maximum possible positive value
 INT_MAX -> int max
 INT_MIN -> int min
 ULLONG_MAX -> unsigned long long max
