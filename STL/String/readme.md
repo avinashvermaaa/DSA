@@ -10,6 +10,7 @@ sort(str.begin(), str.end() )		// string sort
 ```
 ```
 Number of substr of str is (n)*(n+1) / 2;
+Number of subsequence is 2^n;
 
 ```
 # str1.compare(str2)
