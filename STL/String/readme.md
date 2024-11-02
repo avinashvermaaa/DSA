@@ -8,6 +8,10 @@ reverse(str.begin(), str.end() )	// string reverse
 sort(str.begin(), str.end() )		// string sort
 
 ```
+```
+Number of substr of str is (n)*(n+1) / 2;
+
+```
 # str1.compare(str2)
 ```
 string str1,str2;
