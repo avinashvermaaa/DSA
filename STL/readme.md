@@ -29,5 +29,5 @@ LLONG_MAX ->  long long max
  ```
 # Fermet Theorem :-  
  ```         
-           // a^(b-1) % b = 1 {a & b must be co-prime} 
+           // a^(b-1) % b = 1 {a,b must be co-prime & b be prime} 
  ```
