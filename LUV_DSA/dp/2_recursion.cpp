@@ -16,8 +16,7 @@ long long dp[N];
 
 long long fib(long long n)
 {
-	if(n==0) return 1;
-	if(n==1) return 1;
+	if(n==0 || n== 1) return 1;
 	
 	if(dp[n] != -1) return dp[n];
 	
@@ -26,19 +25,19 @@ long long fib(long long n)
 
 int main()
 {
-	int t;
-	cin>>t;
+	int testcase;
+	cin>>testcase;
 	
 	memset(dp,-1,sizeof(dp));
 	
-	while(t--)
+	while(testcase--)
 	{
 		int n;	
 		cin>>n;
 		
 		cout<<fib(n)<<" ";	
 	}
-	
-	
-	
 }
+
+
+// Time Complexity : - Log(N)
